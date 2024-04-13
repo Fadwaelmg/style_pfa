@@ -1,0 +1,101 @@
+body {
+    height: 200px;
+    width: 90%;
+    background-image: linear-gradient(90deg, rgb(164, 170, 201), rgb(136, 192, 206));
+}
+
+.p1 {
+    position: absolute;
+    top: 10px;
+    left: 580px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    color: rgb(255, 255, 255);
+}
+
+.choix {
+    position: absolute;
+    top: 40px;
+    left: 380px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: rgb(3, 43, 79);
+}
+
+.choix input[type="radio"][value="guide"] {
+    margin-right: 10px;
+    /* Ajoute un espace à droite du bouton radio "Guide" */
+}
+
+.choix input[type="radio"][value="visiteur"] {
+    margin-right: 10px;
+    /* Ajoute un espace à gauche du bouton radio "Visiteur" */
+}
+
+
+/* Style pour l'espace entre les boutons radio */
+
+.choix input[type="radio"] {
+    margin-right: 50px;
+    margin: 200px;
+    /* Ajoute un espace à droite de chaque bouton radio */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: linear-gradient(40deg, rgba(255, 255, 255, 0.822), rgb(129, 194, 294));
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 70px 200px 230px 400px;
+    max-width: 400px;
+    max-height: 400px;
+    /* Ajustez la largeur maximale selon vos préférences */
+    margin: 240px 600px;
+    /* Centre la carte horizontalement */
+}
+
+.table1 {
+    position: absolute;
+    top: 345px;
+    left: 650px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.table1 td {
+    padding-bottom: 10px;
+}
+
+.table2 {
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.table2 td {
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #cccccc00;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(40deg, rgba(222, 161, 205, 0.822), rgb(129, 194, 294));
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    transition: border-color 0.3s ease;
+    position: absolute;
+    top: 470px;
+    right: 80px;
+}
+
+
+/* Style pour le champ de btn */
+
+input[type="submit"]:focus {
+    outline: none;
+    border-color: #000658;
+}

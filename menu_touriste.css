@@ -1,0 +1,117 @@
+body {
+    height: 200px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, rgba(196, 182, 197, 1), rgba(35, 117, 163, 1));
+}
+
+
+/* accueil_touriste.css */
+
+.color {
+    padding: 0%;
+    margin: 6%;
+}
+
+.nav {
+    background-color: #333;
+    padding: 0%;
+    border-color: rgba(62, 98, 121, 0.842);
+}
+
+.container {
+    width: 100%;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 80px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-right: auto;
+    display: block;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: #fff;
+}
+
+li a:hover {
+    background-image: linear-gradient(90deg, rgba(247, 247, 247, 0.47), rgba(68, 116, 212, 0.502));
+}
+
+
+/* Styles pour le bouton S'inscrire et Se connecter */
+
+.btn_inscrire {
+    text-align: center;
+}
+
+.btn_inscrire ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+}
+
+.btn_inscrire li {
+    display: inline-block;
+    margin: 5px;
+    /*background-color: #fff;
+    /* Espacement entre les boutons */
+}
+
+.btn_inscrire li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: transparent;
+    /* Fond transparent */
+    border: none;
+    /* Supprime le bord */
+    border-radius: 5px;
+    /* Coins arrondis */
+    transition: color 0.3s ease;
+    /* Animation de transition */
+}
+
+.btn_inscrire li a:hover {
+    color: #ffffff;
+    /* Couleur du texte au survol */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 35px;
+}
+
+.logo img {
+    top: 20px;
+    right: 20px;
+    padding: 10px 35px;
+    position: absolute;
+    width: 200px;
+    /* Ajustez la largeur de l'image selon vos besoins */
+    height: auto;
+    border-radius: 50%;
+    size: 100px;
+    /* Pour un logo circulaire */
+}
