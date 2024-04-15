@@ -1,0 +1,193 @@
+body {
+    height: 200px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, rgba(196, 182, 197, 1), rgba(35, 117, 163, 1));
+}
+
+.p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 500px;
+    position: absolute;
+    top: 450px;
+    font-size: 34px;
+}
+
+.p2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 600px;
+    position: absolute;
+    top: 550px;
+    font-size: 24px;
+    width: 450px;
+}
+
+.p3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    right: 600px;
+    position: absolute;
+    top: 930px;
+    font-size: 34px;
+    width: 600px;
+}
+
+.p4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    right: 650px;
+    position: absolute;
+    top: 1050px;
+    font-size: 24px;
+    width: 500px;
+}
+
+.p5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 730px;
+    position: absolute;
+    top: 1480px;
+    font-size: 34px;
+}
+
+.p6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 670px;
+    position: absolute;
+    top: 1570px;
+    font-size: 24px;
+    width: 500px;
+}
+
+.p7 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: -20px;
+    position: absolute;
+    top: 2000px;
+    font-size: 34px;
+    width: 680px;
+}
+
+.p8 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 100px;
+    position: absolute;
+    top: 2080px;
+    font-size: 24px;
+    width: 400px;
+}
+
+.p9 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 550px;
+    position: absolute;
+    top: 2520px;
+    font-size: 34px;
+    width: 680px;
+}
+
+.p10 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 730px;
+    position: absolute;
+    top: 2630px;
+    font-size: 24px;
+    width: 400px;
+}
+
+.p11 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 30px;
+    position: absolute;
+    top: 3070px;
+    font-size: 34px;
+    width: 680px;
+}
+
+.p12 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 355px;
+    position: absolute;
+    top: 3250px;
+    font-size: 24px;
+    width: 400px;
+}
+
+.p13 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 450px;
+    position: absolute;
+    top: 3630px;
+    font-size: 34px;
+    width: 700px;
+}
+
+.p14 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 470px;
+    position: absolute;
+    top: 3830px;
+    font-size: 24px;
+    width: 400px;
+}
+
+.p15 {
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 450px;
+    position: absolute;
+    top: 4630px;
+    width: 200px;
+}
+
+.p16 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 470px;
+    position: absolute;
+    top: 4830px;
+    font-size: 34px;
+    width: 400px;
+}
+
+.p17 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 4, 52);
+    text-align: center;
+    left: 470px;
+    position: absolute;
+    top: 4830px;
+    font-size: 24px;
+    width: 200px;
+}
