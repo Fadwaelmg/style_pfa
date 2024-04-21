@@ -1,0 +1,36 @@
+body {
+    height: 200px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, rgba(196, 182, 197, 1), rgba(35, 117, 163, 1));
+}
+
+.lieu-1 {
+    /* Styles pour la première div */
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lieu-2 {
+    /* Styles pour la deuxième div */
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lieu-3 {
+    /* Styles pour la troisième div */
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lieu-4 {
+    /* Styles pour la quatrième div */
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+}

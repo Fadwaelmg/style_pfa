@@ -1,0 +1,145 @@
+body {
+    height: 200px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, rgba(196, 182, 197, 1), rgba(35, 117, 163, 1));
+}
+
+.lieu-1 {
+    /* Styles pour la première div */
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lieu-2 {
+    /* Styles pour la deuxième div */
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lieu-3 {
+    /* Styles pour la troisième div */
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lieu-4 {
+    /* Styles pour la quatrième div */
+    background-color: #cccccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fffdfdbd;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.modal-content .column {
+    display: inline-block;
+    /* Modification ici */
+    width: 45%;
+    /* Ajustement de la largeur pour tenir compte de la marge */
+    margin-right: 5%;
+    /* Ajout d'une marge à droite */
+    vertical-align: top;
+    /* Alignement vertical en haut */
+}
+
+
+/* Clear floats after the columns */
+
+.modal-content .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type="button1"] {
+    background-image: linear-gradient(90deg, rgba(89, 173, 241, 0.84), rgba(161, 199, 120, 0.81));
+    /* Couleur de fond */
+    color: #ffffff;
+    /* Couleur du texte */
+    border: none;
+    /* Pas de bordure */
+    padding: 10px 20px;
+    /* Rembourrage intérieur */
+    border-radius: 5px;
+    /* Coins arrondis */
+    cursor: pointer;
+    /* Curseur pointer au survol */
+    transition: background-color 0.3s ease;
+    /* Transition fluide */
+    font-size: 20px;
+    /* Taille de police */
+    position: absolute;
+    top: 542px;
+    right: 290px;
+    text-align: center;
+}
+
+
+/* Style pour le survol des boutons */
+
+input[type="button1"]:hover {
+    background-color: #0056b3;
+    /* Changement de couleur au survol */
+}
+
+input[type="button2"] {
+    background-image: linear-gradient(90deg, rgba(89, 173, 241, 0.84), rgba(161, 199, 120, 0.81));
+    /* Couleur de fond */
+    color: #fff;
+    /* Couleur du texte */
+    border: none;
+    /* Pas de bordure */
+    padding: 10px 20px;
+    /* Rembourrage intérieur */
+    border-radius: 5px;
+    /* Coins arrondis */
+    cursor: pointer;
+    /* Curseur pointer au survol */
+    transition: background-color 0.3s ease;
+    /* Transition fluide */
+    font-size: 20px;
+    /* Taille de police */
+    position: absolute;
+    top: 540px;
+    left: 290px;
+    text-align: center;
+}
+
+
+/* Style pour le survol des boutons */
+
+input[type="button2"]:hover {
+    background-color: #0056b3;
+    /* Changement de couleur au survol */
+}
