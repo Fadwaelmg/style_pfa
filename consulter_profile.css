@@ -1,0 +1,50 @@
+body {
+    height: 200px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(90deg, rgba(196, 182, 197, 1), rgba(35, 117, 163, 1));
+}
+
+.profile {
+    background-image: linear-gradient(90deg, rgba(243, 170, 196, 1), rgba(246, 190, 232, 1) 33%, rgba(255, 247, 216, 1) 76%, rgba(183, 187, 255, 1));
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: absolute;
+    top: 270px;
+    left: 280px;
+    width: 700px;
+    height: 300px;
+    box-shadow: 34px 28px 100px rgba(0, 0, 0, 0.726);
+}
+
+.profile h2 {
+    font-size: 54px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    top: -180px;
+    color: #346470;
+}
+
+.profile p {
+    margin: 5px 0;
+    position: relative;
+    left: 120px;
+    top: -100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #060828;
+}
+
+.profile strong {
+    font-weight: bold;
+    position: relative;
+    left: -120px;
+    top: 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(50, 51, 67);
+}

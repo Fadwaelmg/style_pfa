@@ -1,0 +1,82 @@
+.carte-creatif {
+    width: 600px;
+    /* Largeur de la "carte" */
+    height: 300px;
+    /* Hauteur de la "carte" */
+    border-radius: 10px;
+    /* Coins arrondis */
+    border: 2px solid #ccc;
+    /* Bordure */
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.205);
+    /* Ombre */
+    background-image: linear-gradient(90deg, rgba(210, 153, 194, 1), rgba(255, 247, 194, 1));
+    /* Couleur de fond */
+    padding: 20px;
+    /* Espace à l'intérieur de la "carte" */
+    display: inline-block;
+    /* Permet de positionner la "carte" */
+}
+
+form {
+    max-width: 200px;
+    /* Largeur maximale du formulaire */
+    margin-left: 350px;
+    /* Centrer le formulaire horizontalement */
+    padding: 20px;
+    /* Espace intérieur du formulaire */
+    border-radius: 10px;
+    position: absolute;
+    top: 6px;
+}
+
+label {
+    font-weight: bold;
+    /* Texte en gras pour les étiquettes */
+    display: block;
+    /* Afficher les étiquettes sur une ligne différente */
+    margin-bottom: 5px;
+    /* Marge inférieure pour séparer les étiquettes des champs */
+    color: rgb(9, 17, 60);
+    margin-left: -40px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    /* Largeur des champs de texte */
+    padding: 8px;
+    /* Remplissage interne des champs de texte */
+    margin-bottom: 10px;
+    /* Marge inférieure entre les champs */
+    border-radius: 5px;
+    /* Coins arrondis des champs de texte */
+    border: 1px solid #95f1ff;
+    /* Bordure des champs de texte */
+    box-sizing: border-box;
+    /* Inclure la bordure et le remplissage dans la largeur totale */
+    background-image: linear-gradient(90deg, rgba(210, 153, 194, 1), rgb(223, 214, 156));
+}
+
+input[type="submit"] {
+    width: 100%;
+    /* Largeur du bouton de soumission */
+    padding: 10px;
+    /* Remplissage interne du bouton de soumission */
+    background-color: #a99f71;
+    /* Couleur de fond du bouton de soumission */
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    /* Couleur du texte du bouton de soumission */
+    border: none;
+    /* Supprimer la bordure du bouton de soumission */
+    border-radius: 5px;
+    /* Coins arrondis du bouton de soumission */
+    cursor: pointer;
+    /* Curseur pointeur au survol */
+}
+
+input[type="submit"]:hover {
+    background-color: #6d5130;
+    /* Couleur de fond au survol du bouton */
+}
